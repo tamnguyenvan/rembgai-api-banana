@@ -18,7 +18,7 @@ ADD server.py .
 # (in this case we have a python script)
 # ADD download.py .
 # RUN python3 download.py
-RUN wget https://huggingface.co/tamnvcc/isnet-general-use/resolve/main/isnet-general-use.onnx
+RUN wget https://huggingface.co/tamnvcc/isnet-general-use/resolve/main/isnet-general-use.pth
 
 
 # Add your custom app code, init() and inference()
